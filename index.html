@@ -1,1 +1,33 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EPL Stats</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body class="min-100-vh flex-column">
+    <header class="p-5 text-center text-white bg-primary">
+      <h1>EPL Stats</h1>
+    </header>
+    <main class="flex-row justify-center align-center col-auto p-4 bg-light">
+      <section class="card card-rounded col-7 bg-white">
+        <header class="card-header text-center">
+          <h2 class="text-white">
+            Get the latest EPL scores and table
+          </h2>
+        </header>
+        <div class="text-center p-4">
+          <p class="card-body">
+            When we hit the 'Click Me' button, we see the EPL table.
+          </p>
+          <button class="btn btn-danger" id="fetch-button">
+            Click Me
+          </button>
+        </div>
+        <div class="container" id="issues"></div>
+      </section>
+    </main>
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>
